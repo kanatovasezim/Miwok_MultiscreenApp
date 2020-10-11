@@ -20,6 +20,12 @@ public class Word {
         this.mMiwokTranslation = mMiwokTranslation;
         this.mImageResourceId = mImageResourceId;
     }
+    public Word(String mDefaultTranslation, String mMiwokTranslation, int mImageResourceId, int mAudioResourceId) {
+        this.mDefaultTranslation = mDefaultTranslation;
+        this.mMiwokTranslation = mMiwokTranslation;
+        this.mImageResourceId = mImageResourceId;
+        this.mAudioResourceId = mAudioResourceId;
+    }
 
     public String getmDefaultTranslation() {
         return mDefaultTranslation;

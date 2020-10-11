@@ -21,7 +21,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
         this.backgroundId = backgroundId;
     }
 
-
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
